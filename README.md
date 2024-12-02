@@ -1,23 +1,30 @@
-# DirStats
+# About
 This tool will allow you to check folder's extension statistics (in percentage) with various options.
 
-# Compile
-Compiling with Makefile:
-```bash
-make
-```
 # Install
-Clone the repo:
+Clone repository using git:
 ```
-git clone https://github.com/yak6/DirStats
+git clone https://github.com/yak6/ext-stats
 ```
-cd into it and type:
+Change your directory to copied repository:
+```bash
+cd ext-stats
+```
+Make the file and install using root priviliges:
 ```bash
 sudo make install
 ```
-It will move the executable into /usr/local/bin/ directory.
+From now on the executable will be available at `/usr/local/bin/` directory.
+
+# Compile
+Compile source code using Makefile:
+```bash
+make
+```
+The output will be available at `bin/` directory.
+
 # Usage
-After making an proper install, the executable should be available in the `/usr/local/bin/` which means you can run it everywhere using `dstat`
+After making a proper instalation, the executable should be available in the `/usr/local/bin/` which means you can run it everywhere using `dstat`
 
 ## Basic usage
 Try using help: 
